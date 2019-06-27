@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     scheduler = BlockingScheduler()
 
-    print("start")
+    # print("start")
 
     # 新增一条日志到MongoDB， timer_jobs_log
     def add_log_to_mongo_timer_jobs_log(log_data):
